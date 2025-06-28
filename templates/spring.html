@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Style-IN | Spring Day Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/spring.css') }}">
+</head>
+<body>
+
+  <section class="suggestion-section">
+    <h2>Recommended Outfits for Spring</h2>
+    <div class="outfit-grid">
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring1.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring2.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring3.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring4.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring5.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring6.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/spring/spring7.jpeg') }}">
+      </div>
+    </div>
+    <div class="btn-center">
+      <a href="{{ url_for('index') }}" class="back-btn">← Back to Home</a>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Style-IN | Rainy Day Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/rainy.css') }}">
+</head>
+<body>
+
+  <section class="suggestion-section">
+    <h2>Recommended Outfits for Rainy Season</h2>
+    <div class="outfit-grid">
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy1.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy2.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy3.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy4.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy5.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy6.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/rainy/rainy7.jpeg') }}">
+      </div>
+    </div>
+
+    <div class="btn-center">
+      <a href="{{ url_for('index') }}" class="back-btn">← Back to Home</a>
+    </div>
+  </section>
+
+</body>
+</html>

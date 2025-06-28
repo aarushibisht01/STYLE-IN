@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Style-IN | Winter Day Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/cold.css') }}">
+</head>
+<body>
+
+  <section class="suggestion-section">
+    <h2>Recommended Outfits for Winters</h2>
+    <div class="outfit-grid">
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter1.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter2.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter3.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter4.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter5.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter6.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/cold/winter7.jpeg') }}">
+      </div>
+    </div>
+
+    <div class="btn-center">
+      <a href="{{ url_for('index') }}" class="back-btn">← Back to Home</a>
+    </div>
+  </section>
+
+</body>
+</html>

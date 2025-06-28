@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Style-IN | Weather-Based Outfit Suggestion</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <div class="pimg1">
+    <div class="form-card">
+      <h2>Get Your Weather-Based Outfit</h2>
+      <form method="POST">
+        <div class="form-group">
+          <label for="temperature">Temperature (°C)</label>
+          <input type="number" name="temperature" step="0.1" placeholder="e.g., 28" required>
+        </div>
+
+        <div class="form-group">
+          <label for="humidity">Humidity (%)</label>
+          <input type="number" name="humidity" step="0.1" placeholder="e.g., 60" required>
+        </div>
+
+        <div class="form-group">
+          <label for="wind_speed">Wind Speed (m/s)</label>
+          <input type="number" name="wind_speed" step="0.1" placeholder="e.g., 3.5" required>
+        </div>
+
+        <button type="submit">Get Recommendation</button>
+      </form>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <div class="intro-content">
+      <h2>What is Style-IN?</h2>
+      <p>
+        Style-IN is an intelligent and interactive fashion recommendation platform tailored to real-time weather conditions. It combines the beauty of fashion with the power of machine learning.
+      </p>
+      <p>
+        Just input live weather values—temperature, humidity, and wind speed—and let Style-IN guide you with the perfect outfit based on whether it’s sunny, rainy, winter, autumn, spring, or monsoon. A vibrant visual page will show clothing suggestions suited to the environment, ensuring you feel comfortable, confident, and fashionable all day.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

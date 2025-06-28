@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Style-IN | Sunny Day Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/sunny.css') }}">
+</head>
+<body>
+
+  <section class="suggestion-section">
+    <h2>Recommended Outfits for Summers</h2>
+    <div class="outfit-grid">
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny1.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny2.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny3.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny4.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny5.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny6.jpeg') }}">
+      </div>
+      <div class="outfit-card">
+        <img src="{{ url_for('static', filename='images/sunny/sunny7.jpeg') }}">
+      </div>
+    </div>
+    <div class="btn-center">
+      <a href="{{ url_for('index') }}" class="back-btn">← Back to Home</a>
+    </div>
+  </section>
+
+</body>
+</html>
