@@ -1,6 +1,7 @@
 # 🌤️ Style-IN: Weather-Based Outfit Recommendation Web App
 
 **Style-IN** is a smart and aesthetically pleasing web application that recommends outfits based on weather conditions. Built from scratch with a blend of **Machine Learning, Flask, HTML/CSS, and creativity**, this project reflects not just technical skills but also personal expression and usability.
+
 Check Live Link: https://style-in.onrender.com/
 ---
 
